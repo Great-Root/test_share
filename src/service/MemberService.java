@@ -24,7 +24,7 @@ public class MemberService implements IMemberService{
 
 	@Override
 	public void showMemberNum() {
-		System.out.println("È¸¿ø ¼ö : "+list.size());
+		System.out.println("íšŒì› ìˆ˜ : "+list.size());
 		
 	}
 
