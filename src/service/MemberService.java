@@ -24,7 +24,7 @@ public class MemberService implements IMemberService{
 
 	@Override
 	public void showMemberNum() {
-		// TODO Auto-generated method stub
+		System.out.println("È¸¿ø ¼ö : "+list.size());
 		
 	}
 
