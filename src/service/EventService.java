@@ -13,7 +13,8 @@ public class EventService implements IEventService{
 	
 	@Override
 	public void showInsertEvent(String title, String when) {
-		// TODO Auto-generated method stub
+		map.put(title, when);
+		System.out.println(map.toString());
 		
 	}
 
