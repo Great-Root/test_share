@@ -19,7 +19,10 @@ public class EventService implements IEventService{
 
 	@Override
 	public void showTotalEvent() {
-		// TODO Auto-generated method stub
+		System.out.println("현재 진행되는 모든 이벤트 출력");
+		System.out.println("1.카카오페이 결제시 할인!");
+		System.out.println("2.2+1 행사");
+		System.out.println("3.3만원 구매시 물티슈 증정");
 		
 	}
 
